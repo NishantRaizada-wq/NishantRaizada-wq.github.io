@@ -1,0 +1,66 @@
+.headings {
+  background: #333;
+  margin-bottom: -1em;
+  border-bottom: 2px dashed white;
+  border-top: 2px dashed white;
+  width: 65%;
+  padding: 2em 1em;
+}
+
+.para-lines {
+  background: #2a2a2a;
+  border-bottom: 2px dashed white;
+  border-top: 2px dashed white;
+  width: 100%;
+  padding: 3.79em 1em;
+  position: relative;
+  left: -16.01em;
+  top: 1.45em;
+  color: #eaeaea;
+}
+
+.mb {
+  margin-bottom: 4em;
+}
+
+#block-two, block-three {
+  position: relative;
+  top: -39.2em;
+}
+
+#answer {
+  cursor: pointer;
+  background: #333333;
+  color: #dadada;
+}
+
+#outcome {
+  cursor: pointer;
+  background: #333333;
+  color: #dadada;
+}
+
+#ask, {
+  cursor: pointer;
+  background: #333333;
+  color: #dadada;
+}
+
+#outcome:hover {
+  cursor: pointer;
+  background: #222;
+  color: #eaeaea;
+}
+
+#ask:hover {
+  cursor: pointer;
+  background: #222;
+  color: #eaeaea;
+}
+
+#answer:hover {
+  cursor: pointer;
+  background: #222;
+  color: #eaeaea;
+}
+
