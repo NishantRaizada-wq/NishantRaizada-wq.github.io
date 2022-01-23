@@ -1,8 +1,10 @@
 /* ---- NUMBER OF SLIDE CONFIGURATION ---- */
 
 .wrapper {
-  max-width: 60em;
+  max-width: 30em;
   margin: 1em auto;
+  margin-right: 10em;
+  transform: translateX(40px);
   position: relative;
 }
 
@@ -17,18 +19,20 @@ input {
 
 article {
   width: 20%;
+  /*height: 50%;*/
   float: left;
   position: relative;
 }
 
 article img {
   width: 100%;
+  /*height: 40%;*/
 }
 
 /* ---- SET UP CONTROL ---- */
 
 .slider-prev-next-control {
-  height: 50px;
+  height: 10px;
   position: absolute;
   top: 50%;
   width: 103%;
@@ -37,7 +41,7 @@ article img {
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
-  transform: translate(-2%);
+  transform: translate(-4%);
 }
 
 .slider-prev-next-control label {
@@ -217,7 +221,7 @@ article img {
 
 @media only screen and (max-width: 850px) and (min-width: 450px) {
   .slider-wrapper {
-    border-radius: 0;
+    border-radius: 4px;
   }
 }
 
